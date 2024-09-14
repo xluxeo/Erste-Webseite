@@ -1,0 +1,94 @@
+header, footer{
+    font-size: 2em;
+    text-align: center;
+    background-color: #EED273;
+}
+header p{color: white;}
+footer{color: white;}
+nav{ 
+    font-size: 0.7em;
+    text-align: center;
+    background-color: #EED273;
+}
+nav li{
+    display: inline;
+    text-align: center;
+    list-style-type:none;
+    padding: 0 0em 0 1.7em;
+    color: white;
+    }
+    nav li a{
+        color:white;
+        text-decoration: none;
+    }
+h1{
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    padding: 1em;
+}
+li{font-size:1.7em;}
+li li{font-size: 1em;}
+
+*{
+    margin: 0;
+    padding:0;
+}
+html, body{
+    font:100% Comic Sans MS;
+    text-align: center;
+}
+table{
+    padding: 2 2em 2 2em;
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+td{
+    
+    background-color:#ECE9E1;
+    padding: 2em
+}
+th{
+    background-color: tan;
+}
+body{
+    background-color: #F6E8B7;
+}
+
+figure, figcaption{
+    margin:0;
+    padding: 0;
+}
+figure.einzel{
+    position: relative;
+    display: inline-block;
+    width: 32.9%;
+}
+
+figure img{
+    width: 100%;
+    display: block;;
+}
+
+figcaption{
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    text-align: center;
+    line-height: 3em;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+
+.gesamt{
+    position: relative;
+    color:white;
+}
+
+article{
+    padding:4em;
+}
+ul{list-style-type: style;
+text-align: justify;
+padding: 4em;
+}
